@@ -1,0 +1,243 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2f4ff;
+}
+
+.body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.aluraLogo{
+    width: 100px;
+}
+
+.FBox{
+    background-color: #e2f4ff;
+}
+
+.masterBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box{
+    background-color: #9ed5e4;
+    width: 45%;
+    height: 1020px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.input{
+    width: 90%;
+    height: 40%;
+    background-color: #9ed5e4;
+    border-style: none;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration-color: #ffffff;
+    text-align: center;
+}
+
+.prompt{
+    background-color: #9ed5e4;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.data{
+    height: 25%;
+    width: 90%;
+    background-color: #9ed5e4;
+    border-style: none;
+    color: #ffffff;
+    font-size: 35px;
+    text-decoration-color: #ffffff;
+    text-align: center;
+}
+
+.buttonBox{
+    background-color: #9ed5e4;
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.button {
+    background-color: #609fb0;
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    border-radius: 10px;
+}
+
+.button:hover {
+    transform: translate(0, -6px);
+    box-shadow: 3px 6px 15px 0 #2e3341;
+    color: white;
+    background-color: #457d8c;
+}
+
+.copyEn {
+    background-color: #365760;
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.copyEn::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    border-radius: 10px;
+}
+
+.copyEn:hover {
+    transform: translate(0, -6px);
+    box-shadow: 3px 6px 15px 0 #2e3341;
+    color: white;
+    background-color: #192e34;
+}
+
+.box2{
+    background-color: #c9e7f0;
+    width: 45%;
+    height: 1020px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.input2{
+    width: 90%;
+    height: 40%;
+    background-color: #c9e7f0;
+    border-style: none;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration-color: #ffffff;
+    text-align: center;
+}
+
+.dataDes{
+    height: 25%;
+    width: 90%;
+    background-color: #c9e7f0;
+    border-style: none;
+    color: #ffffff;
+    font-size: 35px;
+    text-decoration-color: #ffffff;
+    text-align: center;
+}
+
+.prompt2{
+        background-color: #c9e7f0;
+        font-weight: bolder;
+        color: #ffffff;
+}
+
+.buttonBox2{
+    background-color: #c9e7f0;
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.button2 {
+    background-color: #7eadba;
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.button2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    border-radius: 10px;
+}
+
+.button2:hover {
+    transform: translate(0, -6px);
+    box-shadow: 3px 6px 15px 0 #2e3341;
+    color: white;
+    background-color: #5d818b;
+}
+
+.copyDes {
+    background-color: #528592;
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.copyDes::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    border-radius: 10px;
+}
+
+.copyDes:hover {
+    transform: translate(0, -6px);
+    box-shadow: 3px 6px 15px 0 #2e3341;
+    color: white;
+    background-color: #365c65;
+}
